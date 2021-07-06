@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    font-weight:800;
+}
+
+p{
+    font-size: 20px;
+}
+
+span{
+    color: aqua;
+}
+
+.top{
+    display: flex;
+    background-color: rgb(9, 66, 88);
+    padding: 20px;
+    box-shadow: 10px 10px 8px rgb(22, 138, 192);
+    margin-bottom: 20px;
+}
+
+#menu{
+    font-size: 25px;
+    color: white;
+    padding: 2px 15px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+
+.body{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.container img{
+    width: 70%;
+}
+
+#button{
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(green, aqua);
+}
+.middle{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.My-Recipes{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipes-des{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+#tube{
+    color: rgba(255, 0, 0, 0.973);
+}
+
+#ins{
+    color: blue;
+}
+
+#dri{
+    color: violet;
+}
+
+.descirption{
+    width: 33.34%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 12px darkgray;
+    border-radius: 5px solid gray;
+}
+
+.descirption img{
+    width: 70%;
+    border-radius: 15px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.descirption h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+.pop{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 16%;
+    margin-bottom: 80px;
+    background-color: lightgray;
+    border-radius: 15px;
+    box-shadow: 10px 10px 12px darkgray;
+
+    
+}
+
+.popularity{
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+
+#name{
+    color: rgba(18, 228, 35, 0.993);
+}
+
+footer{
+    text-align: center;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color: black;
+}
+
+
